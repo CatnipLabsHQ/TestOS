@@ -1,4 +1,4 @@
-# TestOS
+# CatOS
 This is my Litle Java Project
 i try to make a litle OS or someting
 (not a real OS)

@@ -2,7 +2,6 @@ import java.awt.*;
 import java.util.Scanner;
 import javax.swing.*;
 
-
 public class CatOS {
 
     public static void main(String[] args) {
@@ -40,9 +39,6 @@ public class CatOS {
 
             int  inputPassKey = userLogin.nextInt();
             int passKey = 1234;
-            if (inputPassKey == passKey) {
-
-            }
 
             if (inputPassKey == passKey) {
                 loginFrame.dispose();
@@ -50,7 +46,6 @@ public class CatOS {
             else {
                 System.exit(0);
             }
-
         });
 
         // panel Configuration
@@ -60,9 +55,6 @@ public class CatOS {
         loginFrame.add(panel);
         loginFrame.setPreferredSize(new Dimension(150, 30));
 
-
-
-
         loginFrame.setVisible(true);
     }
 
@@ -70,7 +62,6 @@ public class CatOS {
         JFrame mainWindow = new JFrame();
         JToolBar toolBar = new JToolBar();
         JButton shutDown = new JButton();
-
 
         // Main Window Configuration
         mainWindow.setTitle("CatOS");
@@ -90,10 +81,6 @@ public class CatOS {
             System.exit(0);
                 });
 
-
         mainWindow.setVisible(true);
-
-
-
     }
 }
